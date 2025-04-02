@@ -14,12 +14,11 @@
 #docker.elastic.co/kibana/kibana:8.17.0
 #neo4j:5.26.0-community-bullseye
 #mongo:4.4
-weaviate
-db
-redis
-nginx
-ssrf proxy
-sandbox
-api 
-worker 
-web
+langgenius/dify-web:0.15.2
+langgenius/dify-api:0.15.2
+postgres:15-alpine
+nginx:latest
+langgenius/dify-sandbox:0.2.10
+redis:6-alpine
+ubuntu/squid:latest
+semitechnologies/weaviate:1.19.0 
